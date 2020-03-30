@@ -1,0 +1,180 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:00:10
+* VERSION: 1.3.12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO_ CURRENT SERVER                                | ORIGINAL SERVER
+PHP VERSION__:7.1.6                                         | 7.2.6
+OS___________:WINNT                                         | Linux
+CREATED______:2019-05-04 11:56:55
+WP VERSION___:5.1.1
+DUP VERSION__:1.3.12
+DB___________:10.1.24
+DB TABLES____:13
+DB ROWS______:477
+DB FILE SIZE_:2.19MB
+********************************************************************************
+PHP:		7.2.6 | SAPI: litespeed
+PHP MEMORY:	"4294967296" | SUHOSIN: "disabled"
+SERVER:		"Apache"
+DOC ROOT:	"/home/fq3zw4kohipm/public_html/wigglypuff.com/blog"
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	"http://blog.wigglypuff.com/dup-installer/main.installer.php"
+SAFE MODE :	"0"
+CONFIG MODE :	"NEW"
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20190504_wigglypuff_06891e434904a0843093_20190504115655_archive.zip
+SIZE:	16.94MB
+
+ZIP:	Shell Exec Unzip
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home/fq3zw4kohipm/public_html/wigglypuff.com/blog/20190504_wigglypuff_06891e434904a0843093_20190504115655_archive.zip' -d '/home/fq3zw4kohipm/public_html/wigglypuff.com/blog' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 12:00:42 - RUNTIME: 31.1710 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:01:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.39 -- Build Server: 10.1.24
+FILE SIZE:	dup-database__06891e4-04115655.sql (578.75KB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/fq3zw4kohipm/public_html/wigglypuff.com/blog/dup-installer/dup-installer-data__06891e4-04115655.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.39] is less than the build version [10.1.24].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/home/fq3zw4kohipm/public_html/wigglypuff.com/blog/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+lyp_commentmeta: (0)
+lyp_comments: (3)
+lyp_duplicator_packages: (0)
+lyp_links: (0)
+lyp_options: (146)
+lyp_postmeta: (105)
+lyp_posts: (36)
+lyp_term_relationships: (118)
+lyp_term_taxonomy: (12)
+lyp_termmeta: (0)
+lyp_terms: (12)
+lyp_usermeta: (21)
+lyp_users: (1)
+Removed '29' cache/transient rows
+
+INSERT DATA RUNTIME: 0.9815 sec.
+STEP-2 COMPLETE @ 12:01:40 - RUNTIME: 1.0161 sec.
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP-3 START @ 12:01:48
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+lyp_commentmeta^ (0)
+lyp_comments~ (3)
+lyp_duplicator_packages^ (0)
+lyp_links^ (0)
+lyp_options~ (146)
+lyp_postmeta~ (105)
+lyp_posts~ (36)
+lyp_term_relationships~ (118)
+lyp_term_taxonomy~ (12)
+lyp_termmeta^ (0)
+lyp_terms~ (12)
+lyp_usermeta~ (21)
+lyp_users~ (1)
+--------------------------------------
+Search1:	'C:/xampp/htdocs/ram/wigglypuff' 
+Change1:	'/home/fq3zw4kohipm/public_html/wigglypuff.com/blog' 
+Search2:	'C:\/xampp\/htdocs\/ram\/wigglypuff' 
+Change2:	'\/home\/fq3zw4kohipm\/public_html\/wigglypuff.com\/blog' 
+Search3:	'C%3A%2Fxampp%2Fhtdocs%2Fram%2Fwigglypuff%2F' 
+Change3:	'%2Fhome%2Ffq3zw4kohipm%2Fpublic_html%2Fwigglypuff.com%2Fblog%2F' 
+Search4:	'C:\xampp\htdocs\ram\wigglypuff' 
+Change4:	'/home/fq3zw4kohipm/public_html/wigglypuff.com/blog' 
+Search5:	'C:\\xampp\\htdocs\\ram\\wigglypuff' 
+Change5:	'\/home\/fq3zw4kohipm\/public_html\/wigglypuff.com\/blog' 
+Search6:	'C%3A%5Cxampp%5Chtdocs%5Cram%5Cwigglypuff' 
+Change6:	'%2Fhome%2Ffq3zw4kohipm%2Fpublic_html%2Fwigglypuff.com%2Fblog' 
+Search7:	'//localhost/ram/wigglypuff' 
+Change7:	'//blog.wigglypuff.com' 
+Search8:	'\/\/localhost\/ram\/wigglypuff' 
+Change8:	'\/\/blog.wigglypuff.com' 
+Search9:	'%2F%2Flocalhost%2Fram%2Fwigglypuff' 
+Change9:	'%2F%2Fblog.wigglypuff.com' 
+Search10:	'https://blog.wigglypuff.com' 
+Change10:	'http://blog.wigglypuff.com' 
+Search11:	'https:\/\/blog.wigglypuff.com' 
+Change11:	'http:\/\/blog.wigglypuff.com' 
+Search12:	'https%3A%2F%2Fblog.wigglypuff.com' 
+Change12:	'http%3A%2F%2Fblog.wigglypuff.com' 
+SCANNED:	Tables:13 	|	 Rows:454 	|	 Cells:2445 
+UPDATED:	Tables:2 	|	 Rows:39 	|	 Cells:42 
+ERRORS:		0 
+RUNTIME:	0.057700 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/home/fq3zw4kohipm/public_html/wigglypuff.com/blog/wp-config.php'
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+FINAL REPORT NOTICES
+
+STEP-3 COMPLETE @ 12:01:48 - RUNTIME: 0.0953 sec. 
+
+
