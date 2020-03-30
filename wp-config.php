@@ -51,7 +51,7 @@ define( 'DB_USER', 'wiggly_blog_db' );
 
 /** MySQL database password */
 
-define( 'DB_PASSWORD', "]%+InhF{AqiP" );
+define( 'DB_PASSWORD', "Pablo@6848" );
 
 
 /** MySQL hostname */
